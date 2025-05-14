@@ -11,3 +11,8 @@ header {
   box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* sombra sutil */
   z-index: 1000;        /* fica na frente de tudo */
 }
+.logo img {
+  height: 40px;
+  max-width: 100%;
+  height: auto;
+}
