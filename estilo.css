@@ -1,0 +1,13 @@
+header {
+  position: fixed;      /* fixa no topo da tela */
+  top: 0;
+  left: 0;
+  width: 100%;          /* ocupa toda a largura */
+  background: linear-gradient(90deg, #05006B 0%, #0A00D1 100%);
+  padding: 15px 30px;   /* espaçamento interno */
+  display: flex;        /* para alinhar logo e nav lado a lado */
+  justify-content: space-between; /* espaço entre logo e menu */
+  align-items: center;  /* alinha verticalmente */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* sombra sutil */
+  z-index: 1000;        /* fica na frente de tudo */
+}
